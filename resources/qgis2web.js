@@ -106,8 +106,8 @@ var map = new ol.Map({
 
 
     var searchLayer = new SearchLayer({
-      layer: lyr_Pr4_2,
-      colName: 'Clave Cata',
+      layer: lyr_Ayala_2,
+      colName: 'Clave',
       zoom: 10,
       collapsed: true,
       map: map
@@ -118,7 +118,7 @@ var map = new ol.Map({
     .getElementsByTagName('button')[0].className +=
     ' fa fa-binoculars';
     
-map.getView().fit([-11014799.316655, 2123135.853431, -11006817.545142, 2128272.039759], map.getSize());
+map.getView().fit([-11025548.015475, 2115156.658338, -10999513.680049, 2131906.081026], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
